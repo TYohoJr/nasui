@@ -12,7 +12,7 @@ export class DataService {
     let myHeaders = new HttpHeaders();
     myHeaders.append('Authorization', 'Basic' + btoa('root:Festive9631'));
     let apiResponse = this.http.get(
-      "http://192.168.0.10/api/v1.0/storage/volume",
+      "https://192.168.0.10/api/v1.0/storage/volume",
       // {
       //   headers: {
       //     'Content-Type': 'application/json',
